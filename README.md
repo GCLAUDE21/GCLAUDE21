@@ -1,16 +1,24 @@
-## Hi there 👋
+# 👋 Salut, je suis Guillaume CLAUDE
 
-<!--
-**GCLAUDE21/GCLAUDE21** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎯 Consultant Blockchain (en formation Alyra)  
+🌍 Passionné par le Web3, la DeFi, les NFT et la tokenisation  
+💡 Objectif : aider les entreprises et projets à comprendre et intégrer la blockchain  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Ce que je fais
+- Analyse des cas d’usage blockchain (finance, supply chain, NFT, DAO, identité numérique)  
+- Veille stratégique sur les tendances Web3 (Ethereum, DeFi, Tokenomics, AI + Blockchain)  
+- Vulgarisation et accompagnement des entreprises qui veulent explorer le Web3  
+
+---
+
+## 📚 En cours
+- Formation *Consultant Blockchain – Alyra*  
+- Création d’un portfolio GitHub de cas d’usage & notes stratégiques  
+
+---
+
+## 📫 Me contacter
+- 💼 LinkedIn : https://www.linkedin.com/in/guillaume-claude-88b447382/
+- 📧 Email : guillaumeclaude@icloud.com
