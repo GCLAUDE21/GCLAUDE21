@@ -22,7 +22,7 @@
 
 ## 📂 Mes projets GitHub
 
-- [blockchain-notes](https://github.com/GCLAUDE21/blockchain-notes) → Mes résumés de cours Alyra et notes stratégiques  
+- [blockchain-notes](https://github.com/GCLAUDE21/GCLAUDE21/tree/main/blockchain-notes) → Mes résumés de cours Alyra et notes stratégiques  
 - [use-cases-web3](https://github.com/GCLAUDE21/use-cases-web3) → Analyses de cas d’usage (NFT, DAO, Supply Chain, Tokenisation)  
 - [veille-strategique](https://github.com/GCLAUDE21/veille-strategique) → Tendances Web3 & suivi de projets crypto
 
