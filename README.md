@@ -34,6 +34,4 @@
 
 ---
 
-## 📊 Stats GitHub
 
-![Stats GitHub](https://github-readme-stats.vercel.app/api?username=GCLAUDE21&show_icons=true&theme=tokyonight)
