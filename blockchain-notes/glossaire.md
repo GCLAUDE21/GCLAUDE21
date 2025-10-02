@@ -80,10 +80,3 @@ Un aperçu des notions essentielles pour comprendre le fonctionnement du Bitcoin
 ---
 
 ## ⛏️ Minage & Consensus
-
-
-
-
-
-Aucun fichier choisiAucun fichier choisi
-ChatGPT peut commettre des erreurs. Il est recommandé de vérifier les informations importantes. Voir les préférences en matière de cookies.
