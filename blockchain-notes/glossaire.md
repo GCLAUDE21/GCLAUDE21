@@ -44,7 +44,7 @@ Un aperçu des notions essentielles pour comprendre le fonctionnement du Bitcoin
   Plus la cible est basse, plus la preuve de travail est difficile à trouver.
 
 - 🔢 **Nonce**  
-  Nombre en 32 bits que les mineurs doivent découvrir pour valider la preuve de travail.
+  Nombre en 32 bits que les mineurs doivent ajuster pour que la hash du bloc soit valide en fonction de la cible.
 
 - 🔑 **Clé privée**  
   Nombre aléatoire de 256 bits (souvent représenté en hexadécimal).  
