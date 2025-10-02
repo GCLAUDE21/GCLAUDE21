@@ -6,11 +6,6 @@ Un aperçu des notions essentielles pour comprendre le fonctionnement du Bitcoin
 
 ## 🌍 Concepts généraux
 
-- 🪙 **Bitcoin**  
-  Lancé en 2009 par Satoshi Nakamoto, Bitcoin est la première cryptomonnaie en termes de capitalisation.  
-  C’est une **base de données et un logiciel** partagé entre plusieurs ordinateurs appelés **nœuds**.  
-  Ceux-ci communiquent entre eux en pair-à-pair, sans entité centralisée.
-
 - 📄 **White Paper**  
   Document qui décrit le fonctionnement d’un projet.  
   Exemple : *Bitcoin – A Peer-to-Peer Electronic Cash System*.
