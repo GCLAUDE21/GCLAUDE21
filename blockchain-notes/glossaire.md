@@ -6,14 +6,17 @@ Un aperçu des notions essentielles pour comprendre le fonctionnement du Bitcoin
 
 ## 🌍 Concepts généraux
 
-![Blockchain](https://img.shields.io/badge/Blockchain-1e293b?style=for-the-badge&logo=blockchaindotcom&logoColor=4ade80)
-![Crypto](https://img.shields.io/badge/Cryptocurrency-111827?style=for-the-badge&logo=bitcoin&logoColor=facc15)
-![Smart Contracts](https://img.shields.io/badge/Smart%20Contracts-0f172a?style=for-the-badge&logo=solidity&logoColor=9ca3af)
-![Decentralization](https://img.shields.io/badge/Decentralization-1e293b?style=for-the-badge&logo=databricks&logoColor=22d3ee)
-![Tokenomics](https://img.shields.io/badge/Tokenomics-0f172a?style=for-the-badge&logo=stackshare&logoColor=c084fc)
-![Web3](https://img.shields.io/badge/Web3-111827?style=for-the-badge&logo=web3dotjs&logoColor=3b82f6)
-![Cryptography](https://img.shields.io/badge/Cryptography-1e293b?style=for-the-badge&logo=protonmail&logoColor=60a5fa)
-![Distributed Ledger](https://img.shields.io/badge/Distributed%20Ledger-0f172a?style=for-the-badge&logo=hyperledger&logoColor=2dd4bf)
+<p align="center">
+  <img src="https://img.shields.io/badge/Blockchain-FF8C00?style=for-the-badge&logo=blockchaindotcom&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cryptocurrency-FFD43B?style=for-the-badge&logo=bitcoin&logoColor=000000" />
+  <img src="https://img.shields.io/badge/Smart%20Contracts-6f42c1?style=for-the-badge&logo=solidity&logoColor=white" />
+  <img src="https://img.shields.io/badge/Decentralization-00BFA6?style=for-the-badge&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tokenomics-9932CC?style=for-the-badge&logo=stackshare&logoColor=white" />
+  <img src="https://img.shields.io/badge/Web3-0A66C2?style=for-the-badge&logo=web3dotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cryptography-008080?style=for-the-badge&logo=protonmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Distributed%20Ledger-2DD4BF?style=for-the-badge&logo=hyperledger&logoColor=white" />
+</p>
+
 
 
 - 📄 **White Paper**  
@@ -67,6 +70,17 @@ Un aperçu des notions essentielles pour comprendre le fonctionnement du Bitcoin
 
 ## 🔄 Transactions
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Transactions-4ade80?style=for-the-badge&logo=bitcoinsv&logoColor=white" />
+  <img src="https://img.shields.io/badge/UTXO-16a34a?style=for-the-badge&logo=bitcoin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Signatures%20Numériques-2563eb?style=for-the-badge&logo=keybase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Adresses-7e22ce?style=for-the-badge&logo=qrcode&logoColor=white" />
+  <img src="https://img.shields.io/badge/Frais%20de%20Transaction-f97316?style=for-the-badge&logo=moneygram&logoColor=white" />
+  <img src="https://img.shields.io/badge/Mempool-f59e0b?style=for-the-badge&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bloc-0284c7?style=for-the-badge&logo=codesandbox&logoColor=white" />
+  <img src="https://img.shields.io/badge/Validation-059669?style=for-the-badge&logo=vercel&logoColor=white" />
+</p>
+
 - 💵 **UTXO (Unspent Transaction Output)**  
   Modèle utilisé par Bitcoin pour représenter les soldes.  
   Chaque transaction détruit les anciens UTXO et crée de nouveaux UTXO, verrouillés par un script (**ScriptPubKey**) contenant l’adresse et la condition de dépense.
@@ -87,9 +101,17 @@ Un aperçu des notions essentielles pour comprendre le fonctionnement du Bitcoin
 # ⛏️ Minage & Consensus
 
 
-![Bitcoin](https://img.shields.io/badge/Bitcoin-ffd43b?style=for-the-badge&logo=bitcoin&logoColor=000000) 
-![Proof of Work](https://img.shields.io/badge/Consensus-Proof%20of%20Work-999?style=for-the-badge) 
-![SHA-256](https://img.shields.io/badge/Algorithme-SHA--256-4b8bbe?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/Bitcoin-ffd43b?style=for-the-badge&logo=bitcoin&logoColor=000000" />
+  <img src="https://img.shields.io/badge/Proof%20of%20Work-999?style=for-the-badge&logo=bitcoin&logoColor=white" />
+  <img src="https://img.shields.io/badge/SHA--256-4b8bbe?style=for-the-badge&logo=sha256&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hashrate-0ea5e9?style=for-the-badge&logo=serverfault&logoColor=white" />
+  <img src="https://img.shields.io/badge/Halving-f43f5e?style=for-the-badge&logo=timer&logoColor=white" />
+  <img src="https://img.shields.io/badge/Coinbase%20Tx-6d28d9?style=for-the-badge&logo=coinbase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pools%20de%20Minage-10b981?style=for-the-badge&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/Attaque%2051%25-ef4444?style=for-the-badge&logo=alert&logoColor=white" />
+</p>
+
 
 
 Cette section présente les notions clés liées au **minage** et aux **mécanismes de consensus** (Proof of Work / PoW).  
