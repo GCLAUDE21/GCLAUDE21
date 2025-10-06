@@ -6,6 +6,15 @@ Un aperçu des notions essentielles pour comprendre le fonctionnement du Bitcoin
 
 ## 🌍 Concepts généraux
 
+![Blockchain](https://img.shields.io/badge/Blockchain-FF8C00?style=for-the-badge&logo=blockchaindotcom&logoColor=white)
+![Crypto](https://img.shields.io/badge/Crypto-FFD43B?style=for-the-badge&logo=bitcoin&logoColor=000000)
+![Smart Contracts](https://img.shields.io/badge/Smart%20Contracts-6f42c1?style=for-the-badge&logo=solidity&logoColor=white)
+![Decentralization](https://img.shields.io/badge/Decentralization-00BFA6?style=for-the-badge&logo=databricks&logoColor=white)
+![Tokenomics](https://img.shields.io/badge/Tokenomics-9932CC?style=for-the-badge&logo=stackshare&logoColor=white)
+![Web3](https://img.shields.io/badge/Web3-0A66C2?style=for-the-badge&logo=web3dotjs&logoColor=white)
+![Cryptography](https://img.shields.io/badge/Cryptography-008080?style=for-the-badge&logo=protonmail&logoColor=white)
+![Distributed Ledger](https://img.shields.io/badge/Distributed%20Ledger-2DD4BF?style=for-the-badge&logo=hyperledger&logoColor=white)
+
 - 📄 **White Paper**  
   Document qui décrit le fonctionnement d’un projet.  
   Exemple : *Bitcoin – A Peer-to-Peer Electronic Cash System*.
