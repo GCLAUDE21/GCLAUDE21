@@ -6,11 +6,9 @@ Un aperçu des notions essentielles pour comprendre le fonctionnement du Bitcoin
 
 ## 🧠 Concepts Généraux
 <p align="center">
+  <img src="https://img.shields.io/badge/Bloc-0284c7?style=for-the-badge&logo=codesandbox&logoColor=white" />
   <img src="https://img.shields.io/badge/Blockchain-FF8C00?style=for-the-badge&logo=blockchaindotcom&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cryptocurrency-FFD43B?style=for-the-badge&logo=bitcoin&logoColor=000000" />
-  <img src="https://img.shields.io/badge/Smart%20Contracts-6f42c1?style=for-the-badge&logo=solidity&logoColor=white" />
   <img src="https://img.shields.io/badge/Decentralization-00BFA6?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tokenomics-9932CC?style=for-the-badge&logo=stackshare&logoColor=white" />
   <img src="https://img.shields.io/badge/Web3-0A66C2?style=for-the-badge&logo=web3dotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Cryptography-008080?style=for-the-badge&logo=protonmail&logoColor=white" />
   <img src="https://img.shields.io/badge/Distributed%20Ledger-2DD4BF?style=for-the-badge&logo=hyperledger&logoColor=white" />
@@ -72,7 +70,7 @@ Un aperçu des notions essentielles pour comprendre le fonctionnement du Bitcoin
   <img src="https://img.shields.io/badge/Adresses-7e22ce?style=for-the-badge&logo=qrcode&logoColor=white" />
   <img src="https://img.shields.io/badge/Frais%20de%20Transaction-f97316?style=for-the-badge&logo=moneygram&logoColor=white" />
   <img src="https://img.shields.io/badge/Mempool-f59e0b?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bloc-0284c7?style=for-the-badge&logo=codesandbox&logoColor=white" />
+
   <img src="https://img.shields.io/badge/Validation-059669?style=for-the-badge&logo=vercel&logoColor=white" />
 </p>
 
@@ -195,6 +193,8 @@ Si une entité (ou coalition) contrôle **≥ 51%** du hashrate du réseau, elle
   <img src="https://img.shields.io/badge/ERC--20-0ea5e9?style=for-the-badge&logo=ethereum&logoColor=white" />
   <img src="https://img.shields.io/badge/ERC--721-9333ea?style=for-the-badge&logo=ethereum&logoColor=white" />
   <img src="https://img.shields.io/badge/Stablecoin-16a34a?style=for-the-badge&logo=tether&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tokenomics-9932CC?style=for-the-badge&logo=stackshare&logoColor=white" />
+
 </p>
 
 ---
@@ -247,15 +247,6 @@ Si une entité (ou coalition) contrôle **≥ 51%** du hashrate du réseau, elle
   <img src="https://img.shields.io/badge/Layer2-f97316?style=for-the-badge&logo=polygon&logoColor=white" />
 </p>
 
----
-
-## 🔒 Sécurité & Cryptographie
-<p align="center">
-  <img src="https://img.shields.io/badge/Hashing-0284c7?style=for-the-badge&logo=shield&logoColor=white" />
-  <img src="https://img.shields.io/badge/Signatures-0ea5e9?style=for-the-badge&logo=keybase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Clés%20Publiques/Privées-9333ea?style=for-the-badge&logo=protonmail&logoColor=white" />
-  <img src="https://img.shields.io/badge/Multisig-16a34a?style=for-the-badge&logo=ethereum&logoColor=white" />
-</p>
 
 ---
 
