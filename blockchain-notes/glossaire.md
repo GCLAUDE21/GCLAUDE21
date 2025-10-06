@@ -23,13 +23,11 @@ Un aperçu des notions essentielles pour comprendre le fonctionnement du Bitcoin
   Document qui décrit le fonctionnement d’un projet.  
   Exemple : *Bitcoin – A Peer-to-Peer Electronic Cash System*.
 
-- 📖 **Registre**  
-  Base de données regroupant l’historique de toutes les transactions Bitcoin depuis sa création.  
+- 📖 **Registre distribué (Distributed Ledger)**  
+  Base de données partagée, synchronisée et répliquée regroupant l’historique de toutes les transactions Bitcoin depuis sa création.  
   Chaque nouveau bloc s’ajoute à cette chaîne : **la blockchain**.  
   Une fois inscrite, une transaction devient immuable.
 
-- ⏳ **Mempool**  
-  Ensemble des transactions reçues par un nœud en attente d’être ajoutées à un bloc.
 
 - 🧱 **Bloc**  
   Chaque bloc contient :  
@@ -104,6 +102,9 @@ en attendant d’être **validée** et **intégrée à un bloc** par un mineur.
 - 📉 **Taux de purge**  
   Indicateur des frais minimums à appliquer pour éviter qu’une transaction soit rejetée par les mempools des nœuds.
 
+  - ⏳ **Mempool**  
+  Ensemble des transactions reçues par un nœud en attente d’être ajoutées à un bloc.
+
 ---
 
 # ⛏️ Minage & Consensus
@@ -134,7 +135,6 @@ Il reflète la puissance de calcul disponible pour sécuriser la blockchain et t
 
 **Importance :** un hashrate élevé augmente la sécurité du réseau (rendant une attaque coûteuse) et diminue la probabilité pour un seul mineur ou pool de contrôler la chaîne.
 
----
 
 ### 🔐 SHA-256
 
@@ -144,11 +144,6 @@ C’est ce calcul répété des **hashes SHA-256** qui permet aux mineurs de tro
 
 > ⚙️ Un simple changement d’un caractère dans les données produit un hash totalement différent — assurant l’immutabilité et la sécurité du réseau.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/SHA--256-4b8bbe?style=for-the-badge&logo=shield&logoColor=white" />
-</p>
-
----
 
 ### ✂️ Halving
 
@@ -157,7 +152,6 @@ Cela se produit tous les ~210 000 blocs pour Bitcoin (environ tous les 4 ans).
 
 **Effet :** diminue l'émission monétaire, influant potentiellement sur l’offre et le prix si la demande reste constante.
 
----
 
 ### 🧾 Coinbase (transaction de coinbase)
 
@@ -166,7 +160,6 @@ Elle crée la récompense du bloc (nouvelles pièces + frais de transaction) et 
 
 Pour Bitcoin, les sorties de coinbase sont soumises à une période de **maturation de 100 blocs** avant de pouvoir être dépensées.
 
----
 
 ### 🤝 Pools de minage
 
@@ -178,7 +171,6 @@ Les récompenses sont ensuite partagées proportionnellement entre les contribut
 - Réduit le hasard de trouver un bloc seul.
 - Peut néanmoins augmenter la centralisation si un pool devient trop grand.
 
----
 
 ### ⚠️ Attaque à 51% (Majority Attack)
 
