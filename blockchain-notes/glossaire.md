@@ -81,6 +81,14 @@ Un aperçu des notions essentielles pour comprendre le fonctionnement du Bitcoin
   <img src="https://img.shields.io/badge/Validation-059669?style=for-the-badge&logo=vercel&logoColor=white" />
 </p>
 
+Les **transactions** sont le cœur du fonctionnement d’une blockchain.  
+Elles représentent le transfert de valeur ou d’informations entre différentes adresses du réseau.  
+Chaque transaction contient des **entrées (inputs)** et **sorties (outputs)**, et doit être **signée numériquement** par le propriétaire des fonds à l’aide de sa clé privée.
+
+Une fois créée, la transaction est diffusée dans le réseau et stockée temporairement dans la **mempool**,  
+en attendant d’être **validée** et **intégrée à un bloc** par un mineur.
+
+
 - 💵 **UTXO (Unspent Transaction Output)**  
   Modèle utilisé par Bitcoin pour représenter les soldes.  
   Chaque transaction détruit les anciens UTXO et crée de nouveaux UTXO, verrouillés par un script (**ScriptPubKey**) contenant l’adresse et la condition de dépense.
@@ -125,6 +133,20 @@ Le **hashrate** est la quantité de calculs (hashes) réalisés par unité de te
 Il reflète la puissance de calcul disponible pour sécuriser la blockchain et trouver des blocs valides.
 
 **Importance :** un hashrate élevé augmente la sécurité du réseau (rendant une attaque coûteuse) et diminue la probabilité pour un seul mineur ou pool de contrôler la chaîne.
+
+---
+
+### 🔐 SHA-256
+
+Le **SHA-256** (*Secure Hash Algorithm 256 bits*) est la **fonction de hachage cryptographique** utilisée par Bitcoin pour sécuriser le processus de minage et garantir l’intégrité des blocs.  
+Il transforme toute donnée d’entrée en une empreinte unique de **256 bits**, impossible à inverser.  
+C’est ce calcul répété des **hashes SHA-256** qui permet aux mineurs de trouver le bon **nonce** et de valider un nouveau bloc.
+
+> ⚙️ Un simple changement d’un caractère dans les données produit un hash totalement différent — assurant l’immutabilité et la sécurité du réseau.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SHA--256-4b8bbe?style=for-the-badge&logo=shield&logoColor=white" />
+</p>
 
 ---
 
