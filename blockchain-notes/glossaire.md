@@ -81,6 +81,7 @@ Chaque transaction contient des **entrées (inputs)** et **sorties (outputs)**, 
 Une fois créée, la transaction est diffusée dans le réseau et stockée temporairement dans la **mempool**,  
 en attendant d’être **validée** et **intégrée à un bloc** par un mineur.
 
+---
 
 - 💵 **UTXO (Unspent Transaction Output)**  
   Modèle utilisé par Bitcoin pour représenter les soldes.  
