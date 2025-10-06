@@ -102,7 +102,7 @@ en attendant d’être **validée** et **intégrée à un bloc** par un mineur.
 - 📉 **Taux de purge**  
   Indicateur des frais minimums à appliquer pour éviter qu’une transaction soit rejetée par les mempools des nœuds.
 
-  - ⏳ **Mempool**  
+- ⏳ **Mempool**  
   Ensemble des transactions reçues par un nœud en attente d’être ajoutées à un bloc.
 
 ---
