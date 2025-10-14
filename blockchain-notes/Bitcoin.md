@@ -110,6 +110,7 @@ Le consensus est garanti par la **preuve de travail** :
 ## 🧠 6. Récapitulatif 
 
 [Transaction] → [Mempool] → [Bloc candidat] → [Minage PoW] → [Bloc validé]
+
 🔹 Transactions = UTXO signés  
 🔹 PoW = sécurité & immuabilité  
 🔹 Halving = rareté programmée  
