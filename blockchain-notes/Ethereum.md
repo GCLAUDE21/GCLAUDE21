@@ -105,7 +105,7 @@ Depuis **The Merge (2022)**, Ethereum fonctionne en **Proof of Stake (PoS)** via
 
 
 
-## ⚠️ 1. Pénalité de performance (Inactivity Leak)
+### ⚠️ 1. Pénalité de performance (Inactivity Leak)
 
 **Cause :**  
 Le validateur est **hors ligne**, ne propose pas de blocs, ou ne signe pas les attestations pendant plusieurs epochs.
@@ -125,7 +125,7 @@ Validateur offline 7 jours → pertes significatives
 
 ---
 
-## 🚫 2. Slashing partiel (Faute de consensus)
+### 🚫 2. Slashing partiel (Faute de consensus)
 
 **Cause :**  
 Le validateur agit de manière incohérente avec le consensus, par exemple :
@@ -147,7 +147,7 @@ Préserver l’intégrité du consensus et empêcher la double validation ou les
 
 ---
 
-## 💀 3. Slashing massif (Comportement coordonné malveillant)
+### 💀 3. Slashing massif (Comportement coordonné malveillant)
 
 **Cause :**  
 Plusieurs validateurs appartenant au même opérateur ou groupe **commettent la même faute simultanément**, par exemple :
