@@ -101,7 +101,7 @@ Depuis **The Merge (2022)**, Ethereum fonctionne en **Proof of Stake (PoS)** via
 - Ils sont sélectionnés aléatoirement pour proposer ou attester des blocs.  
 - Les comportements malhonnêtes entraînent des **slashing penalties** (perte partielle ou totale des ETH stakés) :
 
-- # ⚔️ Les 3 types de sanctions d’un nœud validateur sur Ethereum (Proof of Stake)
+- ### ⚔️ Les 3 types de sanctions d’un nœud validateur sur Ethereum (Proof of Stake)
 
 
 
