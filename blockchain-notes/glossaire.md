@@ -191,7 +191,6 @@ Si une entité (ou coalition) contrôle **≥ 51%** du hashrate du réseau, elle
   <img src="https://img.shields.io/badge/IPFS-16a34a?style=for-the-badge&logo=ipfs&logoColor=white" />
   <img src="https://img.shields.io/badge/Arweave-0284c7?style=for-the-badge&logo=arweave&logoColor=white" />
   
-## 💰 Tokens & Tokenomics
 
 ---
 
