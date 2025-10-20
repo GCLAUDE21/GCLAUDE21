@@ -366,9 +366,6 @@ Un protocole peut :
   <img src="https://img.shields.io/badge/Gas-f97316?style=for-the-badge&logo=ethereum&logoColor=white" />
 </p>
 
----
-
-### 📜 Smart Contract
 
 Un **smart contract** est un **programme informatique stocké sur la blockchain**.  
 Il s’exécute automatiquement lorsque certaines conditions sont remplies, **sans intermédiaire**.
@@ -428,9 +425,6 @@ Tous les nœuds du réseau possèdent une copie de l’EVM.
   <img src="https://img.shields.io/badge/Liquidity%20Pools-f43f5e?style=for-the-badge&logo=uniswap&logoColor=white" />
 </p>
 
-## 💸 DeFi — Finance Décentralisée
-
----
 
 ### 🌐 Définition
 
@@ -536,9 +530,6 @@ Chaque trade fait varier le ratio des deux actifs, ce qui ajuste automatiquement
   <img src="https://img.shields.io/badge/Votes-16a34a?style=for-the-badge&logo=gitlab&logoColor=white" />
 </p>
 
-## 🗳️ Gouvernance & DAO
-
----
 
 ### 🧠 Gouvernance dans la blockchain
 
@@ -620,9 +611,7 @@ mais aussi un **pouvoir décisionnel** dans la communauté.
   <img src="https://img.shields.io/badge/Layer1-9333ea?style=for-the-badge&logo=ethereum&logoColor=white" />
   <img src="https://img.shields.io/badge/Layer2-f97316?style=for-the-badge&logo=polygon&logoColor=white" />
 </p>
-## 🏗️ Infrastructure & Oracles
 
----
 
 ### 🌍 Vue d’ensemble
 
@@ -731,9 +720,7 @@ des **données externes** qu’elle ne peut pas obtenir seule (prix, météo, r�
   <img src="https://img.shields.io/badge/Arbitrum-16a34a?style=for-the-badge&logo=ethereum&logoColor=white" />
   <img src="https://img.shields.io/badge/Solana-f97316?style=for-the-badge&logo=solana&logoColor=white" />
 </p>
-## 🌐 Écosystèmes & Réseaux
 
----
 
 ### 🪙 Bitcoin — La première blockchain
 
@@ -812,9 +799,7 @@ Elle permet d’exécuter des transactions **hors de la blockchain Ethereum**, p
   <img src="https://img.shields.io/badge/Gaming-9333ea?style=for-the-badge&logo=unity&logoColor=white" />
   <img src="https://img.shields.io/badge/Supply%20Chain-0ea5e9?style=for-the-badge&logo=vechain&logoColor=white" />
 </p>
-## 💼 Cas d’usage & Applications
 
----
 
 ### 💳 Paiement & transfert de valeur
 
