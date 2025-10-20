@@ -196,7 +196,105 @@ Les validateurs sont récompensés en ETH nouvellement créés et via les **frai
 
 ---
 
-## 🧮 6. L’EVM : Ethereum Virtual Machine
+## ⚙️ 6. — Les protocoles de consensus sur Ethereum : Casper FFG & LMD-GHOST
+
+### 🧩 Introduction
+
+Depuis **The Merge** (septembre 2022), Ethereum repose sur un consensus hybride **Proof of Stake (PoS)** combinant deux protocoles complémentaires :
+
+- 🧱 **Casper FFG (Friendly Finality Gadget)** — gère la *finalité* des blocs  
+- 🌐 **LMD-GHOST (Latest Message Driven - Greediest Heaviest Observed SubTree)** — gère le *choix de la tête de chaîne* (le “head block”)
+
+Ces deux mécanismes travaillent ensemble au sein de la **Beacon Chain** pour assurer la sécurité, la cohérence et la finalité du réseau Ethereum PoS.
+
+---
+
+### 🔒 1. Casper FFG — Finalité des blocs
+
+#### 💡 Objectif
+Casper FFG (Friendly Finality Gadget) permet de **déterminer à quel moment un bloc devient irréversible** — c’est-à-dire finalisé.
+
+Un bloc finalisé **ne peut plus être annulé** à moins de punir financièrement une majorité de validateurs (slashing massif).
+
+#### ⚙️ Fonctionnement général
+Casper FFG fonctionne sur la base d’un système de **checkpoints** (points de repère sur la chaîne).
+
+- Tous les **32 slots (~6,4 minutes)**, Ethereum définit une nouvelle *epoch*.
+- Dans chaque epoch, certains blocs deviennent des **checkpoints candidats**.
+- Les validateurs **votent** pour lier un checkpoint à celui de l’epoch précédente.
+- Si **au moins 2/3 des validateurs** attestent la même chaîne, le checkpoint devient :
+  - **Justifié** → validé temporairement.
+  - **Finalisé** → irréversible si le suivant est justifié à son tour.
+
+#### 🧮 Résumé du processus
+1. Les validateurs émettent des **attestations** sur les checkpoints.  
+2. Un checkpoint est *justifié* quand ≥ 2/3 des votes le soutiennent.  
+3. Un checkpoint *justifié* devient *finalisé* lorsque le suivant est justifié.  
+4. Une fois finalisé → aucune réorganisation (reorg) n’est possible sans pertes économiques majeures.
+
+#### 🔐 Sécurité
+- Finalité garantie **économiquement** : pour revenir en arrière, un attaquant doit perdre au moins **1/3 du total staké**.  
+- Cela rend les attaques coûteuses, donc dissuasives.  
+
+---
+
+### ⚙️ 2. LMD-GHOST — Choix de la tête de chaîne
+
+#### 💡 Objectif
+LMD-GHOST (Latest Message Driven - Greediest Heaviest Observed SubTree) est l’algorithme utilisé pour déterminer **quel bloc est le “head” de la blockchain** — c’est-à-dire la version la plus récente et valide.
+
+Alors que Casper gère la *finalité*, LMD-GHOST gère la *construction continue* de la chaîne.
+
+#### 🧠 Principe de base
+Chaque validateur envoie régulièrement un **vote (attestation)** pour indiquer :
+- quel bloc il considère comme la tête actuelle,  
+- et à quel parent celui-ci est relié.
+
+LMD-GHOST parcourt ensuite l’arbre des blocs et choisit la **chaîne ayant le plus grand poids de votes récents** (les “latest messages”).
+
+> “Greediest Heaviest Observed SubTree” = on suit toujours la branche la plus lourde (celle qui a reçu le plus d’attestations récentes).
+
+#### 🔄 Étapes simplifiées
+1. Le validateur analyse tous les votes récents des autres nœuds.  
+2. Il part du dernier bloc *justifié* par Casper.  
+3. Il remonte l’arbre des blocs et suit **à chaque étape la branche ayant le plus de poids (votes)**.  
+4. Le dernier bloc de cette branche devient la **tête de chaîne**.  
+
+#### ⚡ Avantages
+- Permet un consensus **rapide et réactif**, même avec un grand nombre de validateurs.  
+- Réduit les risques de forks temporaires.  
+- Assure une **cohérence** entre la chaîne canonique (LMD-GHOST) et la chaîne finalisée (Casper FFG).
+
+---
+
+### 🧩 3. Complémentarité des deux protocoles
+
+| Rôle | Casper FFG | LMD-GHOST |
+|------|-------------|------------|
+| 🏁 **But principal** | Déterminer la finalité économique d’un bloc | Déterminer la tête actuelle de la chaîne |
+| ⏱ **Fréquence** | Par epoch (~6,4 min) | À chaque slot (~12 s) |
+| 🗳 **Basé sur** | Votes de 2/3 des validateurs | Votes les plus récents (latest messages) |
+| 🔐 **Effet** | Rendre un bloc irréversible | Maintenir une chaîne cohérente et vivante |
+| ⚙️ **Interaction** | Fournit le dernier bloc “justifié” à LMD-GHOST | Continue la chaîne depuis ce bloc justifié |
+
+En résumé :
+> 🧠 **LMD-GHOST construit la chaîne**,  
+> 💎 **Casper FFG la finalise.**
+
+---
+
+### 🚀 Conclusion
+
+Le consensus actuel d’Ethereum repose sur une **synergie entre Casper FFG et LMD-GHOST** :
+- LMD-GHOST garantit que les validateurs convergent rapidement sur une seule tête de chaîne cohérente.  
+- Casper FFG assure que cette chaîne devient **finale, immuable et économiquement sécurisée**.
+
+Cette combinaison offre à Ethereum un **équilibre entre rapidité, sécurité et décentralisation**, tout en supprimant la lourde consommation énergétique du Proof of Work.
+
+> 🔗 Ethereum n’est donc plus seulement une blockchain décentralisée —  
+> c’est un **système de consensus hybride intelligent**, pensé pour durer à grande échelle.
+
+## 🧮 7. L’EVM : Ethereum Virtual Machine
 
 L’**EVM** (Ethereum Virtual Machine) est une machine virtuelle déterministe et isolée qui exécute le **bytecode** des smart contracts.
 
@@ -217,7 +315,7 @@ Chaque nœud exécute le même code → **consensus sur l’état final**.
 
 ---
 
-## 🌍 7. Vision globale
+## 🌍 8. Vision globale
 
 Ethereum, c’est :
 - Un **registre d’état distribué**,  
@@ -229,7 +327,7 @@ C’est la base de toute l’économie décentralisée moderne : **DeFi**, **NFT
 
 ---
 
-## 🧾 8. Schéma simplifié du fonctionnement
+## 🧾 9. Schéma simplifié du fonctionnement
 
 Utilisateur → Transaction → Réseau → Bloc → EVM → État mis à jour
 
