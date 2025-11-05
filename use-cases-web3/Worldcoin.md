@@ -109,5 +109,3 @@ Et sur ce terrain, Worldcoin fait figure de pionnier.
 | **Vision** | Une économie numérique centrée sur l’humain |
 
 ---
-
-📸 *Visuel d’illustration : Worldcoin — À la croisée de l’IA, de la blockchain et de la philosophie politique*
