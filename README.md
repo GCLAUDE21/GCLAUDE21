@@ -1,36 +1,33 @@
 # 👋 Salut, je suis Guillaume CLAUDE
 
-🎯 Consultant Blockchain (en formation Alyra)  
-🌍 Passionné par le Web3, la DeFi, les NFT et la tokenisation  
-💡 Objectif : Me perfectionné et professionnaliser dans le milieu du Web3 et de la blockchain  
+🎓 Certifié Consultant Blockchain – Alyra
+💻 En formation Développeur Web, orienté Web3
+🌍 Passionné par la blockchain, la DeFi et la tokenisation
 
 ---
 
 ## 🚀 Ce que je fais
-- Analyse des cas d’usage & projets blockchain  
-- Veille stratégique sur les tendances & développement Web3   
-- Création d’un portfolio GitHub de cas d’usage & notes de mes cours Alyra
+
+- Intégration HTML/CSS et développement de projets web concrets
+- Analyse de cas d'usage blockchain et veille stratégique Web3
+- Construction d'un portfolio GitHub mêlant dev et expertise blockchain
 
 ---
 
-## 📚 En cours
-- Formation *Consultant Blockchain – Alyra*  
+## 🎯 Objectif
+
+Devenir développeur Web/Web3 : allier mes compétences blockchain avec le développement pour concevoir des applications décentralisées et accompagner les projets de demain.
 
 ---
 
+## 📂 Mes projets
 
-## 📂 Mes projets GitHub
-
-- [blockchain-notes](https://github.com/GCLAUDE21/GCLAUDE21/tree/main/blockchain-notes) → Mes résumés de cours Alyra   
-- [use-cases-web3](https://github.com/GCLAUDE21/GCLAUDE21/tree/main/use-cases-web3) → Analyses de cas d’usage    
-- [veille-strategique](https://github.com/GCLAUDE21/GCLAUDE21/tree/main/veille-strategique) → Tendances Web3 
+- [TP3-HTML](https://github.com/GCLAUDE21/TP3-HTML) — Intégration d'une maquette en HTML/CSS pur, responsive design
+- [NomadNodes](https://github.com/GCLAUDE21) — DApp de réservation hôtelière décentralisée, projet de fin de formation Alyra
 
 ---
 
 ## 📫 Me contacter
+
 - 💼 LinkedIn : https://www.linkedin.com/in/guillaume-claude-88b447382/
 - 📧 Email : guillaumeclaude@icloud.com
-
----
-
-
