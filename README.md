@@ -1,14 +1,19 @@
 # 👋 Salut, je suis Guillaume CLAUDE
 
 🎓 Certifié Consultant Blockchain – Alyra
+
 💻 En formation Développeur Web
 
 ---
 
 ## 🚀 Ce que je fais
 
-- Intégration HTML/CSS et développement de projets web 
 - Construction d'un portfolio GitHub de réalisations dev
+- Intégration HTML/CSS/
+- SASS
+- JAVASCRIPT
+- React
+- ...
 
 ---
 
