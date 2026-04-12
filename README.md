@@ -7,7 +7,7 @@
 
 ## 🚀 Ce que je fais
 
-- Intégration HTML/CSS et développement de projets web concrets
+- Intégration HTML/CSS et développement de projets web 
 - Construction d'un portfolio GitHub de réalisations dev
 
 ---
@@ -21,6 +21,7 @@ Devenir développeur Web : maîtriser les fondamentaux du développement pour co
 ## 📂 Mes projets
 
 - [TP3-HTML](https://github.com/GCLAUDE21/TP3-HTML) — Intégration d'une maquette en HTML/CSS pur, responsive design
+- [LA-MONTAGNE] (https://github.com/GCLAUDE21/La-Montagne-Sass) - Intégration d'une maquette avec une architecture modulaire SCSS, responsive design
 
 ---
 
