@@ -25,7 +25,7 @@ Devenir développeur Web : maîtriser les fondamentaux du développement pour co
 
 ## 📂 Mes projets
 
-- [THE-RESTO]([https://github.com/GCLAUDE21/La-Montagne-Sass](https://github.com/GCLAUDE21/THE-RESTO)) - Intégration d'une maquette avec une architecture modulaire SCSS, responsive design
+- [THE-RESTO](https://github.com/GCLAUDE21/THE-RESTO) - Intégration d'une maquette avec une architecture modulaire SCSS, responsive design
 - [LA-MONTAGNE](https://github.com/GCLAUDE21/La-Montagne-Sass) - Intégration d'une maquette avec une architecture modulaire SCSS, responsive design
 - [TP3-HTML](https://github.com/GCLAUDE21/TP3-HTML) — Intégration d'une maquette en HTML/CSS pur, responsive design
 
