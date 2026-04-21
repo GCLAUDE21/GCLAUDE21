@@ -25,6 +25,8 @@ Devenir développeur Web : maîtriser les fondamentaux du développement pour co
 
 ## 📂 Mes projets
 
+- [Helium-MouseEffect](https://github.com/GCLAUDE21/Helium-MouseEffect) - Exercice Javascript : Créer un curseur personnalisé en JavaScript natif 
+- [Bubble-Clicker](https://github.com/GCLAUDE21/Bubble-clicker) - Premier exercice Javascript : Mini-jeu de bulles animées en JavaScript 
 - [THE-RESTO](https://github.com/GCLAUDE21/THE-RESTO) - Intégration d'une maquette avec une architecture modulaire SCSS, responsive design
 - [LA-MONTAGNE](https://github.com/GCLAUDE21/La-Montagne-Sass) - Intégration d'une maquette avec une architecture modulaire SCSS, responsive design
 - [TP3-HTML](https://github.com/GCLAUDE21/TP3-HTML) — Intégration d'une maquette en HTML/CSS pur, responsive design
