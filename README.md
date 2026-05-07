@@ -25,7 +25,8 @@ Devenir développeur Web : maîtriser les fondamentaux du développement pour co
 
 ## 📂 Mes projets
 
-- [Country-App](https://github.com/GCLAUDE21/Country-App) - Consommer une API et manipuler les données en temps réel 
+- [Yoga-Routine](https://github.com/GCLAUDE21/Yoga-routine) - Application routines de yoga - Manipulation DOM, récursivité, JS ES6.
+- [Country-App](https://github.com/GCLAUDE21/Country-App) - Consommer une API et manipuler les données en temps réel .
 - [Date-Calculator](https://github.com/GCLAUDE21/Date_Calculator) - Créer un ensemble de fonctions utilitaires pour la gestion des champs de date en JavaScript. 
 - [Todo-List](https://github.com/GCLAUDE21/Todo-List) - Créer une todo list en JavaScript 
 - [Helium-MouseEffect](https://github.com/GCLAUDE21/Helium-MouseEffect) - Exercice Javascript : Créer un curseur personnalisé en JavaScript natif 
