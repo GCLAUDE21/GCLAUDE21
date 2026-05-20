@@ -13,7 +13,7 @@
 - SASS
 - JAVASCRIPT
 - React
-- ...
+- Node JS
 
 ---
 
