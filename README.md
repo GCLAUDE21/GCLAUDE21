@@ -22,7 +22,7 @@ Plateforme fullstack MERN complète pour une éducatrice canine.
 Réservations en ligne, panel admin, upload Cloudinary, emails transactionnels Brevo, auth JWT, calendrier de disponibilités.  
 `React · Node.js · Express · MongoDB · Cloudinary · Brevo`
 
-### 🎬 [MovieDB](https://github.com/GCLAUDE21/movieDB)
+### 🎬 [MovieDB](https://movie-db-seven-sigma.vercel.app/)
 Application React de recherche et découverte de films via l'API TMDB.  
 Filtres dynamiques, gestion d'état, tests Vitest.  
 `React · TMDB API · Vitest`
